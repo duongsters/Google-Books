@@ -1,19 +1,12 @@
 import React from "react";
-import "./JumbotronStyle.css";
 
 function Jumbotron() {
     return (
-        
-        <div className="container">
-            <div className="jumbotron">
-                <h1 className="display-4">Clicky Game</h1>
-                <p className="lead">Click on a character to earn points! However do not choose the same character twice.</p>
+    <div className='jumbotron jumbotron-fluid bg-secondary text-white' style={{textAlign: 'center', color:'white'}}>
 
-            </div>
-        </div>
-        
-    );
+        <h3>Search for and Save Books of Interest!</h3>
+    </div>
+    )
 }
 
 export default Jumbotron;
-
