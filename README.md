@@ -1,4 +1,7 @@
 # Google Books Search and Find
+![](./create-react-express/client/public/images/gif.gif)
+### `Demo Link`
+https://chilling-pumpkin-42059.herokuapp.com/
 
 ## `Summary`
 'Google Books Search and Find' is an application, built upon React, is a search engine to search for books with Google Books' API. 'Google Books Search and Find' uses **react-router-dom** to navigate, hide and outputting the components without changing the routes within Express through the webpage. By displaying the books stored from Google Books' API database. The front-end React application will dynamically create its updated search results of books-- and the backend Express application will run independently. With the use of helper/utility functions, are we able to display and query the books 
